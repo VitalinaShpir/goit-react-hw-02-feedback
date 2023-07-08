@@ -28,37 +28,3 @@ FeedbackOptions.propTypes={
   onLeaveFeedback: PropTypes.func.isRequired,
 };
 
-// export class App extends Component {
-//   state = {
-//     good: 0,
-//     neutral: 0,
-//     bad: 0,
-//   };
-
-//   handleClick = e => {
-//     this.setState(prevState => {
-//       return { good: prevState.good + 1 };
-//     });
-//   };
-
-//   render() {
-//     return (
-//       <div>
-//         <p>Please leave your feedback</p>
-//         <ul>
-//           <li>
-//             <button type="button" onClick={this.handleClick}>
-//               Good: {this.state.good}
-//             </button>
-//           </li>
-//           <li>
-//             <button type="button">Neutral: {this.state.neutral}</button>
-//           </li>
-//           <li>
-//             <button type="button">Bad: {this.state.bad}</button>
-//           </li>
-//         </ul>
-//       </div>
-//     );
-//   }
-// }
