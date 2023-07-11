@@ -7,7 +7,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.9), rgba(46, 47, 66, 0.9)),
+    url(https://iread.com.ua/wp-content/uploads/2019/03/irbg.029.flowers-1024x640.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
